@@ -1,7 +1,3 @@
-
-
-
-
 function updateCountdown() {
     const Tdate =document.getElementById("tdate");
     const targetDate= new Date(Tdate.textContent).getTime();
