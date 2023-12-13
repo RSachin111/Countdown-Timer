@@ -7,31 +7,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div id="timer-section">
 <div class="timer-box">
     <div class="overlay">
-        <h2 class="title">We are coming soon</h2>
-        <h3 class="end-date"> 1 january 2024 10:45AM </h3>
-        <div class="box">
+        <h2 class="title" id="title">We are coming soon</h2>
+        <h3 id="end-date"> 1 january 2024</h3>
+        <h4 id="tdate">2024-01-01T00:11:34</h4>
+        <div class="box" id="countdown">
             <div class="input-box">
-                <input class="input" type="text" readonly value="0"><br>
-                <label for="">Day</label>
+                <input id="days" class="input" type="text" readonly value="0"><br>
+                <label for="" id=>Day</label>
             </div>
             <div class="input-box">
-                <input class="input" type="text" readonly value="0"><br>
+                <input id="hours" class="input" type="text" readonly value="0"><br>
                 <label for="">Hour</label>
             </div>
             <div class="input-box">
-                <input class="input" type="text" readonly value="0"><br>
+                <input id="minutes" class="input" type="text" readonly value="0"><br>
                 <label for="">Minitue</label>
             </div>
             <div class="input-box">
-                <input class="input" type="text" readonly value="0"><br>
+                <input id="seconds" class="input" type="text" readonly value="0"><br>
                 <label for="">Seconds</label>
             </div>
-        </div>
     </div>
-    
-</div>
+</div></div>
+
 <script src="js/script.js" ></script>
 </body>
 
